@@ -1,3 +1,7 @@
+const website = 'https://baovekawasaki.tk'
+const title = 'Công ty bảo vệ Kawasaki tuyển dụng Tìm việc làm bảo vệ bảo hà nội'
+const content = 'Tìm việc làm nhân viên bảo vệ bảo ăn ở tại hà nội. Công ty bảo vệ Kawasaki tuyển dụng,  Đảm bảo thu nhập từ 6-12 triệu, hỗ trợ ăn, ở miễn phí. Nhận hồ sơ..'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -8,14 +12,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Việc làm bảo vệ tại Vĩnh Phúc - Tuyển gấp 60 nam/nữ làm nhân viên',
+    title,
     htmlAttrs: {
       lang: 'vi',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Tìm việc làm bảo vệ tại Vĩnh Phúc, công ty cần tuyển nhân viên bảo vệ vĩnh yên. Đảm bảo thu nhập từ 6.5-12 triệu, hỗ trợ ăn, ở miễn phí. Còn nhận hồ sơ xin' },
+      { hid: 'description', name: 'description', content },
       { name: 'msapplication-TileColor', content: '#ffffff' },
       { name: 'msapplication-TileImage', content: '/ms-icon-144x144.png' },
       { name: 'theme-color', content: '#ffffff' },
@@ -125,8 +129,8 @@ export default {
         json: {
           '@context': 'https://schema.org',
           '@type': 'Organization',
-          url: 'https://baoveanninhphiabac.ga',
-          logo: 'https://baoveanninhphiabac.ga/images/logo.png',
+          url: website,
+          logo: website + '/images/logo.png',
         },
       },
       {
@@ -164,9 +168,12 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    publicPath: 'https://baoveanninhphiabac.ga',
+    publicPath: website,
   },
   generate: {
     dir: 'docs',
+  },
+  server: {
+    host: '0' // default: localhost
   },
 }
