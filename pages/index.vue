@@ -1,14 +1,14 @@
 <template>
   <div>
     <div
-      class="inner-banner-style-01 b-img-01"
+      class="inner-banner-style-01 b-img-home"
       style="background-position: 50% 0px"
     >
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
             <div class="info">
-              <h1>Việc làm bảo vệ tại Vĩnh Phúc</h1>
+              <h1>Công ty bảo vệ kawasaki tuyển dụng</h1>
             </div>
           </div>
         </div>
@@ -19,39 +19,62 @@
         <div class="row">
           <div class="col-lg-12">
             <h2>
-              Tuyển bảo vệ tại Vĩnh Phúc: cần gấp 60 nam/nữ làm nhân viên bảo vệ
+              Thông báo tuyển bảo vệ tại Hà Nội làm theo ca 8 tiếng, 12 tiếng,
+              ca đêm bao ăn ở
             </h2>
             <p>
-              <strong>Tuyển bảo vệ vĩnh phúc</strong>, bạn đang trong độ tuổi
-              lao động từ 18 tới 60 <em>(tuyển bảo vệ 60 tuổi)</em>, mong muốn
-              <em>tìm việc làm bảo vệ tại vĩnh phúc</em> có công việc ổn định,
-              thu nhập tốt, được đóng bảo hiểm đầy đủ. Bạn muốn được đào tạo trở
-              thành bảo vệ chuyên nghiệp miễn phí, làm việc gần nhà
-              <em>ở Vĩnh Phúc</em> tại các địa điểm sau:
+              Bạn là Nam hoặc Nữ trong độ tuổi lao động có sức khỏe đang
+              <strong>tìm việc bảo vệ tại Hà Nội</strong>. Hoặc tìm việc làm bảo
+              vệ tại Hà Đông. Mong muốn làm việc lâu dài, ổn định, làm bảo vệ
+              theo ca, tùy từng mục tiêu sẽ có ca 8 tiếng, 12 tiếng, ca đêm.
+              <strong>Công ty bảo vệ Kawasaki</strong>
+              ưu tiên tuyển bảo vệ những người có kinh nghiệm; đã qua Công an,
+              Quân đội.
             </p>
             <ol>
-              <li>Khu công nghiệp Bình Xuyên I, II</li>
-              <li>Khu công nghiệp Bá Thiện I, II</li>
-              <li>Khu công nghiệp Thăng Long III</li>
-              <li>Khu công nghiệp Khai Quang</li>
-              <li>Thành phố Phúc Yên</li>
-              <li>Thành phố Hà Nội</li>
+              <li>Miễn phí 100% Nhà ở</li>
+              <li>Miễn phí Ăn ca (Tùy mục tiêu bảo vệ)</li>
+              <li>
+                Độ tuổi: Nam 18 =>55 , Nữ 18 => 45 (quá tuổi hưởng lương bậc 1)
+              </li>
             </ol>
 
-            <p>
-              Công ty TNHH Dịch Vụ Bảo Vệ An Ninh Phía Bắc
-              <strong>ở vĩnh phúc tuyển dụng nhân viên bảo vệ</strong>:
-            </p>
+            <p>Chế độ đặc biệt:</p>
             <ul>
-              <li>05 đội trưởng lương 8 tới 15tr/tháng</li>
-              <li>15 ca trưởng lương 7 tới 8tr/tháng</li>
-              <li>50 nhân viên lương 5 tới 7tr/tháng</li>
-              <li>(chưa có kinh nghiệm sẽ được đào tạo)</li>
+              <li>Nam 20-45 cao 1m66, nặng 55kg có bằng cấp 2 trở lên</li>
+              <li>Nữ 18-38 cao từ 1m58, nặng 45kg có bằng câp 2 trở lên</li>
             </ul>
+            <p>
+              Các trường hợp đủ điều kiện trên sẽ được hưởng mức lương thỏa
+              thuận ngay từ tháng đầu tiên.
+            </p>
+
+            <h2>Tuyển gấp 200 nam/nữ làm bảo vệ theo ca tại Hà Nội</h2>
+            <p>
+              Nội thành, ngoại thành Hà Nội và các tỉnh: Tuyên Quang, Vĩnh Phúc,
+              Hưng Yên, Bắc Ninh, Quảng ninh, Hà Nam, Bình Thuận, Long An, Ninh
+              Bình.... (Hộ khẩu ở đâu làm việc lâu dài ở đó)
+            </p>
+            <p>
+              Người lao động được tham gia bảo hiểm, được hưởng các chế độ chính
+              sách theo pháp luật và qui định của Công ty. Công ty Bảo Vệ
+              Kawasaki chi thưởng cho CBNV các dịp lễ, tết và đặc biệt cuối năm
+              tất cả các nhân viên bảo vệ được bốc thăm trúng thưởng lớn và được
+              tặng quà. Ngoài mức lương trên nếu làm thêm ngày thường được nhân
+              150%, chủ nhật được nhân 200%, ngày lễ, tết được nhân 300%.
+              <strong>tuyển đội trưởng bảo vệ tại hà nội</strong> chỉ làm giờ
+              hành chính 8h/ngày và 26 ngày/tháng, nghỉ chủ nhật và hưởng lương
+              bình quân từ 8.000.000đ đến trên 20.000.000đ/tháng.
+            </p>
             <p class="warning">Lưu ý:</p>
             <ul>
-              <li>Có hỗ trợ nhà ở cho nhân viên ở xa;</li>
-              <li>Bao ăn 1-2 bữa/ca</li>
+              <li>
+                Được cấp phát đồng phục miễn phí 500.000 (Áp dụng khu vực Vĩnh
+                Phúc trước ngày 14/04/2021)
+              </li>
+              <li>Hỗ trợ trực cổng 500.000 - 1.000.000</li>
+              <li>Hỗ trợ độc hại 100.000 (tùy từng mục tiêu)</li>
+              <li>Làm giờ hành chính, ca 8 tiếng (tùy từng mục tiêu)</li>
             </ul>
             <div class="button">
               <a href="#mc-embedded-subscribe-form" class="fill"
@@ -66,18 +89,19 @@
     <div class="call-to-action-03 container">
       <div class="row">
         <div class="col-lg-6 col-md-6 herotext">
-          <h2>Tìm việc làm bảo vệ tại vĩnh phúc</h2>
+          <h2>Tìm việc làm bảo vệ tại Hà Nội</h2>
           <div class="description">
             <p>
               <NuxtLink to="/"
-                >Công ty TNHH Dịch vụ bảo vệ An Ninh Phía Bắc</NuxtLink
+                >Công ty TNHH liên doanh dịch vụ bảo vệ Kawasaki Việt
+                Nam</NuxtLink
               >
-              được thành lập năm 2013.
+              được thành lập năm 2012, có địa chỉ tại Tầng 1, nhà chung cư 12
+              tầng - Thị trấn Quang Minh - Huyện Mê Linh - Hà Nội
             </p>
             <p>
-              Chuyên cung cấp dịch vụ bảo vệ chuyên nghiệp, uy tín: tuyển bảo vệ
-              tại vĩnh yên, tuyển nhân viên bảo vệ tại vĩnh tường, tuyển bảo vệ
-              khu công nghiệp, việc làm phúc yên.
+              Bạn đang tìm việc an ninh, bảo vệ tại Hà Nội, muốn làm bảo vệ theo
+              ca 8 tiếng, ca đêm (trực đêm).
             </p>
           </div>
           <div class="button">
@@ -87,9 +111,9 @@
         </div>
         <div class="col-lg-6 col-md-6 picture">
           <img
-            src="/images/cong-ty-bao-ve-an-ninh-phia-bac-tuyen-dung.jpg"
+            src="/images/dao-tao-bao-ve-chuyen-nghiep.jpg"
             class="img-responsive center-block"
-            alt="Công ty TNHH Dịch vụ bảo vệ An Ninh Phía Bắc"
+            alt="công ty bảo vệ kawasaki tuyển dụng"
           />
         </div>
       </div>
@@ -99,7 +123,8 @@
       <div class="row">
         <div class="col-lg-12 herotext">
           <div class="description">
-            Tìm ngay cho mình việc làm ở công ty bảo vệ tại vĩnh phúc.
+            Tìm ngay cho mình việc làm ở
+            <em>công ty bảo vệ tuyển dụng tại hà nội</em>.
           </div>
         </div>
       </div>
@@ -127,8 +152,8 @@
             </div>
             <!-- Picture Overlay Ends -->
           </div>
-          <div class="name">Tuyển bảo vệ vĩnh yên</div>
-          <div class="designation">Công ty</div>
+          <div class="name">Tuyển bảo vệ chung cư tại hà nội</div>
+          <div class="designation">bảo vệ kawasaki</div>
           <div class="description">
             “Ban giám đốc công ty An Ninh Phía Bắc chúc mừng toàn thể các chị em
             đồng chí nữ đang công tác tại mục tiêu của công ty Ngày 20/10 vui
@@ -140,7 +165,7 @@
             <img
               src="/images/viec-lam-bao-ve-o-phuc-yen.jpg"
               class="img-responsive"
-              alt="Tuyển dụng việc làm vĩnh phúc"
+              alt="tuyển đội trưởng bảo vệ tại hà nội"
             />
             <!-- Picture Overlay Starts -->
             <div class="picture-overlay">
@@ -158,8 +183,8 @@
             </div>
             <!-- Picture Overlay Ends -->
           </div>
-          <div class="name">Tuyển dụng việc làm vĩnh phúc</div>
-          <div class="designation">Công ty bảo vệ</div>
+          <div class="name">tuyển đội trưởng bảo vệ tại hà nội</div>
+          <div class="designation">bảo vệ kawasaki</div>
           <div class="description">
             Quy trình quản lý giám sát công nhân, nhân viên tại nhà máy May.
             Nhằm đảm bảo an ninh an toàn tài sản cho nhà máy.
@@ -188,8 +213,8 @@
             </div>
             <!-- Picture Overlay Ends -->
           </div>
-          <div class="name">Tìm việc làm ở vĩnh phúc</div>
-          <div class="designation">Đào tạo PCCC</div>
+          <div class="name">việc làm bảo vệ ở hà nội</div>
+          <div class="designation">bảo vệ kawasaki</div>
           <div class="description">
             Công ty An Ninh Phía Bắc liên tục tuyển dụng và đào tạo bảo vệ, vệ
             sĩ chuyên nghiệp tại Vĩnh Phúc.
@@ -349,9 +374,9 @@
 </template>
 
 <style scoped>
-.b-img-01 {
+.b-img-home {
   background-attachment: fixed;
-  background-image: url(/images/tuyen-bao-ve-o-vinh-phuc.jpg);
+  background-image: url(/images/cong-ty-bao-ve-kawasaki-tuyen-dung.jpg);
   background-repeat: repeat-y;
   background-position: 50% 0;
   background-size: cover;

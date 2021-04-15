@@ -16,7 +16,7 @@
           <span class="icon-bar"></span>
         </button>
         <nuxt-link class="navbar-brand" to="/">
-          <strong class="mau-trang mt-5">TUYỂN BẢO VỆ VĨNH PHÚC</strong>
+          <strong class="mau-trang mt-5">TUYỂN BẢO VỆ KAWASAKI</strong>
         </nuxt-link>
       </div>
       <div id="navbar-02" class="navbar-collapse collapse">
