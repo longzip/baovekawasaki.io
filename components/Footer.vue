@@ -5,7 +5,8 @@
       <div class="row row1">
         <div class="col-lg-9 col-md-9 col-sm-9">
           <h2 class="mau-trang">
-            Công ty bảo vệ tại Vĩnh Phúc - Tuyển dụng bảo vệ
+            Công ty bảo vệ Kawasaki - Tuyển dụng bảo vệ và việc làm bảo vệ ở hà
+            nội
           </h2>
         </div>
         <!-- Social Icons Starts -->
@@ -17,7 +18,7 @@
             <li>
               <a
                 target="_blank"
-                href="https://www.facebook.com/baoveanninhphiabac"
+                href="https://www.facebook.com/tuyenbaovekawasaki"
                 ><i class="fa fa-facebook"></i
               ></a>
             </li>
@@ -36,7 +37,7 @@
       <div class="row row2">
         <!-- Tags Starts -->
         <div class="col-lg-3 col-md-6 col-sm-6 clearfix tags">
-          <h4 class="tieu-de">Từ khóa tìm kiếm</h4>
+          <h4 class="tieu-de">Làm bảo vệ tại hà nội</h4>
           <ul>
             <li v-for="(tuKhoa, index) in tuKhoas" :key="index">
               <a href="#">{{ tuKhoa }}</a>
@@ -46,7 +47,7 @@
         <!-- Tags Ends -->
         <!-- Recent Posts Starts -->
         <div class="col-lg-3 col-md-6 col-sm-6 recent-posts">
-          <h4 class="tieu-de">Tin tuyển dụng mới nhất</h4>
+          <h4 class="tieu-de">Tìm việc làm bảo vệ hà nội</h4>
           <ul>
             <li v-for="job in jobs" :key="job._id">
               <nuxt-link :to="'/tuyen-dung/' + job.slug.current + '/'">{{
@@ -58,7 +59,7 @@
         <!-- Recent Posts Ends -->
         <!-- From Blog Starts -->
         <div class="col-lg-3 col-md-6 col-sm-6 from-blog">
-          <h4 class="tieu-de">Xin làm bảo vệ</h4>
+          <h4 class="tieu-de">Làm bảo vệ tại hà nội</h4>
           <ul>
             <li class="clearfix">
               <div class="picture">
@@ -69,7 +70,7 @@
               </div>
               <div class="info">
                 <div class="caption">
-                  <a href="#">Tôi ở Vĩnh Phúc xin làm bảo vệ được không?</a>
+                  <a href="#">Tìm việc làm bảo vệ bảo an ở tại hà nội?</a>
                 </div>
                 <div class="date">
                   Ngày đăng {{ new Date().toLocaleDateString() }}
@@ -81,26 +82,27 @@
         <!-- From Blog Ends -->
         <!-- About Us Starts -->
         <div class="col-lg-3 col-md-6 col-sm-6 about">
-          <h4 class="tieu-de">Việc làm bảo vệ ở Vĩnh Phúc</h4>
+          <h4 class="tieu-de">Bảo vệ ở hà nội</h4>
           <div class="description">
             <strong
-              >Thông tin Công Ty TNHH Dịch Vụ Bảo Vệ An Ninh Phía Bắc ở Thị xã
-              Phúc Yên, Vĩnh Phúc: mã số thuế: 2500506581, Địa chỉ: Số 56, Đường
-              Lạc Long Quân, P. Hùng Vương, TP. Phúc Yên,Vĩnh Phúc:</strong
+              >Thông tin TẬP ĐOÀN LIÊN DOANH DỊCH VỤ BẢO VỆ KAWASAKI VIỆT NHẬT:
+              mã số thuế: 2500369783-002, Địa chỉ: Tầng 1, nhà chung cư 12 tầng,
+              Thị Trấn Quang Minh, Huyện Mê Linh, Thành phố Hà Nội, Việt
+              Nam:</strong
             ><br />
-            <strong>Cần tuyển dụng</strong>
+            <strong>Cần tuyển dụng bảo vệ hà nội</strong>
             <em>nhân viên bảo vệ và an ninh</em> tòa nhà, siêu thị, nhà máy làm
             việc tại KCN Khai Quang, Vĩnh Yên, KCN Bình Xuyên, KCN Thăng Long,
             Vĩnh Phúc hoặc KCN Bá Thiện, Vĩnh Phúc. Khu vực Phúc Yên, Xuân Hòa.
             KCN Quang Minh, Mê Linh, Hà Nội
             <p>
               <a
-                href="//www.dmca.com/Protection/Status.aspx?ID=bbf30974-e49d-4f2c-9a49-5d833800ae9a"
+                href="//www.dmca.com/Protection/Status.aspx?ID=44f7a756-5591-471b-b9fe-d4d507b77a18"
                 title="DMCA.com Protection Status"
                 class="dmca-badge"
               >
                 <img
-                  src="https://images.dmca.com/Badges/dmca_protected_sml_120n.png?ID=bbf30974-e49d-4f2c-9a49-5d833800ae9a"
+                  src="https://images.dmca.com/Badges/dmca_protected_sml_120l.png?ID=44f7a756-5591-471b-b9fe-d4d507b77a18"
                   alt="DMCA.com Protection Status"
               /></a>
               <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
@@ -114,7 +116,7 @@
           <div
             class="fb-customerchat"
             attribution="setup_tool"
-            page_id="110522487140550"
+            page_id="290853411569651"
           ></div>
         </div>
         <!-- About Us Ends -->
@@ -140,12 +142,6 @@
       })(document, 'script', 'facebook-jssdk')
     </script>
 
-    <!-- Your Chat Plugin code -->
-    <div
-      class="fb-customerchat"
-      attribution="page_inbox"
-      page_id="110763834427796"
-    ></div>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -196,32 +192,34 @@ export default {
     return {
       jobs: [
         {
-          _id: '304bbbfc-5e79-4e0a-90a6-a93c4744a3e6',
+          _id: '8ede167f-8925-4064-8022-ad45e023adb6',
           slug: {
             _type: 'slug',
             current:
-              'tuyen-bao-ve-vinh-yen-can-gap-20-nhan-vien-bao-ve-ca-ngay-va-toi',
+              'tuyen-bao-ve-chung-cu-tai-ha-noi-viec-lam-bao-ve-bao-an-o',
           },
-          title:
-            'Tuyển bảo vệ Vĩnh Yên Cần gấp 20 Nhân viên bảo vệ ca ngày và tối',
+          title: 'Tuyển bảo vệ chung cư tại hà nội - Việc làm bảo vệ bảo ăn ở',
         },
       ],
       tuKhoas: [
-        'tìm việc làm bảo vệ',
-        'tuyển bảo vệ',
-        'việc làm bảo vệ tại vĩnh phúc',
-        'tìm việc làm bảo vệ ở vĩnh phúc',
-        'việc làm vĩnh phúc',
-        'tuyển nhân viên bảo vệ',
-        'việc làm bảo vệ',
-        'tuyển bảo vệ vĩnh phúc',
-        'tuyển bảo vệ vĩnh yên',
-        'việc làm tại vĩnh phúc',
-        'tìm việc làm ở vĩnh phúc',
-        'tuyển dụng việc làm vĩnh phúc',
-        'tuyển bảo vệ tại vĩnh phúc',
-        'tìm việc bảo vệ',
-        'tuyển dụng tại vĩnh phúc',
+        'tuyển bảo vệ chung cư tại hà nội',
+        'bảo vệ lương cao tại hà nội',
+        'tìm việc bảo vệ hà nội',
+        'tìm việc bảo vệ ở hà nội',
+        'tuyển nhân viên bảo vệ tại hà nội',
+        'việc làm bảo vệ hà nội',
+        'tuyển đội trưởng bảo vệ tại hà nội',
+        'công ty bảo vệ tuyển dụng tại hà nội',
+        'tuyển dụng bảo vệ tại hà nội',
+        'tuyển dụng bảo vệ hà nội',
+        'làm bảo vệ tại hà nội',
+        'tìm việc làm bảo vệ chung cư tại hà nội',
+        'tìm việc làm bảo vệ hà nội',
+        'tuyển bảo vệ ở hà nội',
+        'tìm bảo vệ tại hà nội',
+        'tìm việc làm bảo vệ bảo an ở tại hà nội',
+        'việc làm bảo vệ ở hà nội',
+        'bảo vệ ở hà nội',
       ],
     }
   },

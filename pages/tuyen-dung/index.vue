@@ -19,7 +19,7 @@ export default {
   },
   async asyncData({ $sanity }) {
     // const querySave = groq`*[_type == 'post' && author._ref == '2a7d74a8-83da-4dd0-9c0f-9f3bce87a51f']{_id, title, slug}`
-    const query = groq`*[_type == "post" && author._ref == '7b426352-eb03-42da-8356-16dd25119f1e']{_id, title, body, slug, 'imageId': mainImage.asset->_id}`
+    const query = groq`*[_type == "post" && author._ref == '3aedb093-827e-46dc-bdc0-992b1a8b818c']{_id, title, body, slug, 'imageId': mainImage.asset->_id}`
     const posts = await $sanity.fetch(query)
     return { posts }
   },

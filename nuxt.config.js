@@ -1,6 +1,9 @@
+import jobs from './jobs.json'
 const website = 'https://baovekawasaki.tk'
-const title = 'Công ty bảo vệ Kawasaki tuyển dụng Tìm việc làm bảo vệ bảo hà nội'
-const content = 'Tìm việc làm nhân viên bảo vệ bảo ăn ở tại hà nội. Công ty bảo vệ Kawasaki tuyển dụng,  Đảm bảo thu nhập từ 6-12 triệu, hỗ trợ ăn, ở miễn phí. Nhận hồ sơ..'
+const title =
+  'Công ty bảo vệ Kawasaki tuyển dụng Tìm việc làm bảo vệ bảo hà nội'
+const content =
+  'Tìm việc làm nhân viên bảo vệ bảo ăn ở tại hà nội. Công ty bảo vệ Kawasaki tuyển dụng,  Đảm bảo thu nhập từ 6-12 triệu, hỗ trợ ăn, ở miễn phí. Nhận hồ sơ..'
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -164,7 +167,36 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ['@nuxtjs/sitemap'],
+
+  sitemap: {
+    hostname: website,
+    gzip: true,
+    routes: [
+      {
+        url: '/',
+        priority: 1.0,
+        lastmod: new Date(),
+      },
+      {
+        url: '/tuyen-dung/',
+        priority: 0.8,
+        lastmod: new Date(),
+      },
+      {
+        url: '/nop-ho-so-ung-tuyen/',
+        priority: 0.8,
+        lastmod: new Date(),
+      },
+      ...jobs.map((job) => {
+        return {
+          url: `/tuyen-dung/${job.slug.current}/`,
+          priority: 0.8,
+          lastmod: new Date(),
+        }
+      }),
+    ],
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
@@ -174,6 +206,6 @@ export default {
     dir: 'docs',
   },
   server: {
-    host: '0' // default: localhost
+    host: '0', // default: localhost
   },
 }

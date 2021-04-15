@@ -132,7 +132,7 @@
         <div class="col-lg-4 col-md-4 block">
           <div class="picture">
             <img
-              src="/images/viec-lam-bao-ve-vinh-phuc.jpg"
+              src="/images/tuyen-bao-ve-chung-cu-tai-ha-noi.jpg"
               class="img-responsive"
               alt="Tuyển dụng việc làm vĩnh phúc"
             />
@@ -142,7 +142,7 @@
                 <div>
                   <span class="icon"
                     ><a
-                      href="/images/viec-lam-bao-ve-vinh-phuc.jpg"
+                      href="/images/tuyen-bao-ve-chung-cu-tai-ha-noi.jpg"
                       class="image-popup-vertical-fit"
                       title="Pellentesque Habitant"
                       ><i class="fa fa-search"></i></a
@@ -155,15 +155,15 @@
           <div class="name">Tuyển bảo vệ chung cư tại hà nội</div>
           <div class="designation">bảo vệ kawasaki</div>
           <div class="description">
-            “Ban giám đốc công ty An Ninh Phía Bắc chúc mừng toàn thể các chị em
-            đồng chí nữ đang công tác tại mục tiêu của công ty Ngày 20/10 vui
-            vẻ!”
+            “Ngày 11/11/2020, công ty TNHH LDDV bảo vệ Kawasaki Việt Nam triển
+            khai bảo vệ mục tiêu mới tại toà nhà, địa chỉ 343 Đội Cấn- Ba Đình-
+            Hà Nội”
           </div>
         </div>
         <div class="col-lg-4 col-md-4 block">
           <div class="picture">
             <img
-              src="/images/viec-lam-bao-ve-o-phuc-yen.jpg"
+              src="/images/bao-ve-kawasaki-dao-tao.jpg"
               class="img-responsive"
               alt="tuyển đội trưởng bảo vệ tại hà nội"
             />
@@ -173,7 +173,7 @@
                 <div>
                   <span class="icon"
                     ><a
-                      href="/images/viec-lam-bao-ve-o-phuc-yen.jpg"
+                      href="/images/bao-ve-kawasaki-dao-tao.jpg"
                       class="image-popup-vertical-fit"
                       title="Pellentesque Habitant"
                       ><i class="fa fa-search"></i></a
@@ -186,16 +186,15 @@
           <div class="name">tuyển đội trưởng bảo vệ tại hà nội</div>
           <div class="designation">bảo vệ kawasaki</div>
           <div class="description">
-            Quy trình quản lý giám sát công nhân, nhân viên tại nhà máy May.
-            Nhằm đảm bảo an ninh an toàn tài sản cho nhà máy.
+            Bảo vệ kawasaki được đào tạo và thực hành thực tế với công an.
           </div>
         </div>
         <div class="col-lg-4 col-md-4 block">
           <div class="picture">
             <img
-              src="/images/dao-tao-nghiep-vu-bao-ve-pccc.jpg"
+              src="/images/tuyen-bao-ve-tai-ha-noi-truc-camera.jpg"
               class="img-responsive"
-              alt="Tìm việc làm ở vĩnh phúc"
+              alt="việc làm bảo vệ ở hà nội"
             />
             <!-- Picture Overlay Starts -->
             <div class="picture-overlay">
@@ -203,7 +202,7 @@
                 <div>
                   <span class="icon"
                     ><a
-                      href="/images/dao-tao-nghiep-vu-bao-ve-pccc.jpg"
+                      href="/images/tuyen-bao-ve-tai-ha-noi-truc-camera.jpg"
                       class="image-popup-vertical-fit"
                       title="Pellentesque Habitant"
                       ><i class="fa fa-search"></i></a
@@ -216,8 +215,8 @@
           <div class="name">việc làm bảo vệ ở hà nội</div>
           <div class="designation">bảo vệ kawasaki</div>
           <div class="description">
-            Công ty An Ninh Phía Bắc liên tục tuyển dụng và đào tạo bảo vệ, vệ
-            sĩ chuyên nghiệp tại Vĩnh Phúc.
+            Công ty Bảo Vệ Kawasaki liên tục tuyển dụng và đào tạo bảo vệ, vệ sĩ
+            chuyên nghiệp tại Hà Nội.
           </div>
         </div>
       </div>
@@ -230,10 +229,10 @@
             <h2>Nhận thông báo tuyển dụng việc làm nhân viên bảo vệ</h2>
             <div class="description">
               Bạn không có thời gian, không muốn bỏ lỡ bất kỳ thông báo tuyển
-              dụng bảo vệ nào gần Vĩnh Phúc. Chúng tôi sẽ giúp bạn cập nhật bản
-              tin tuyển dụng bảo vệ mới nhất. Vui lòng cho chúng tôi biết email
-              của bạn và số điện thoại liên hệ để công ty bảo vệ an ninh miền
-              bắc gửi tới bạn nhé!
+              dụng <em>việc làm bảo vệ ở hà nội</em>. Chúng tôi sẽ giúp bạn cập
+              nhật bản tin tuyển dụng bảo vệ mới nhất. Vui lòng cho chúng tôi
+              biết email của bạn và số điện thoại liên hệ để
+              <em>Công ty bảo vệ kawasaki tuyển dụng</em> gửi tới bạn nhé!
             </div>
           </div>
         </div>
@@ -241,7 +240,7 @@
           <div class="col-lg-6 col-md-6 col-sm-6">
             <p class="nhan-thong-bao">
               Chúng tôi rất trân trọng khi bạn gia nhập vào đội nhóm
-              <strong>Bảo Vệ Vĩnh Phúc</strong>
+              <strong>Bảo Vệ Kawasaki</strong>
             </p>
 
             <form
@@ -260,7 +259,7 @@
                   type="text"
                   class="form-control"
                   name="FNAME"
-                  value="Trần Văn A"
+                  value=""
                   placeholder="Họ tên của bạn *"
                 />
               </div>
@@ -271,7 +270,7 @@
                   class="form-control"
                   type="text"
                   name="PHONE"
-                  value="097xxx"
+                  value=""
                   placeholder="Số điện thoại Viettel *"
                 />
               </div>
@@ -280,7 +279,7 @@
                 <input
                   id="mce-MMERGE6"
                   type="text"
-                  value="ở đâu?"
+                  value=""
                   name="MMERGE6"
                   class="form-control"
                   placeholder="Địa chỉ nhà bạn *"
@@ -293,7 +292,7 @@
                   type="email"
                   class="form-control"
                   name="EMAIL"
-                  value="ten@gmail.com"
+                  value="ten_ban@gmail.com"
                   placeholder="Địa chỉ email nhận thông báo *"
                 />
               </div>
@@ -324,11 +323,13 @@
             class="col-lg-5 col-md-5 col-sm-5 col-lg-offset-1 col-md-offset-1 col-sm-offset-1"
           >
             <div class="white-bg address-block">
-              <h3>Văn phòng công ty công ty bảo vệ an ninh miền bắc</h3>
+              <h3>Văn phòng công ty bảo vệ tuyển dụng tại hà nội</h3>
               <address>
-                <strong>Công ty dịch vụ bảo vệ an ninh Phía Bắc</strong><br />
-                Số nhà 56 , Đường Lạc Long Quân, Phường Hùng Vương, TP Phúc Yên
-                - Vĩnh Phúc
+                <strong
+                  >Tập Đoàn Liên Doanh Dịch Vụ Bảo Vệ Kawasaki Việt Nam</strong
+                ><br />
+                Tầng 1, nhà chung cư 12 tầng, Thị Trấn Quang Minh, Huyện Mê
+                Linh, Thành phố Hà Nội, Việt Nam
               </address>
               <address>
                 <div class="phone">
@@ -336,33 +337,26 @@
                 </div>
                 <div class="email">
                   <i class="fa fa-envelope"></i>
-                  <a href="mailto:tuyendung@baoveanninhphiabac.ga"
-                    >tuyendung@baoveanninhphiabac.ga</a
+                  <a href="mailto:tuyendung@baovekawasaki.tk"
+                    >tuyendung@baovekawasaki.tk</a
                   >
                 </div>
               </address>
               <h3>Kết nối và theo dõi chúng tôi</h3>
               <ul class="social-icons">
                 <li>
-                  <a href="https://fb.me/baoveanninhphiabac"
+                  <a href="https://fb.me/tuyenbaovekawasaki"
                     ><i class="fa fa-facebook"></i
                   ></a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/baoveanninhphiabac/"
-                    ><i class="fa fa-instagram"></i
-                  ></a>
+                  <a href=""><i class="fa fa-instagram"></i></a>
                 </li>
                 <li>
-                  <a
-                    href="https://www.youtube.com/channel/UCbhrZmYH9-NFwz-aiun-yWw"
-                    ><i class="fa fa-youtube"></i
-                  ></a>
+                  <a href=""><i class="fa fa-youtube"></i></a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/anninhphiabac"
-                    ><i class="fa fa-twitter"></i
-                  ></a>
+                  <a href=""><i class="fa fa-twitter"></i></a>
                 </li>
               </ul>
             </div>

@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"https:\u002F\u002Fbaoveanninhphiabac.ga\u002Fstatic\u002F1618304742",layout:"default",error:null,serverRendered:true,routePath:"\u002Ftuyen-dung\u002Ftuyen-dung-phuc-yen-can-tuyen-05-nhan-vien-lam-bao-ve-kho-hang",config:{_app:{basePath:a,assetsPath:a,cdnURL:"https:\u002F\u002Fbaoveanninhphiabac.ga\u002F"}}}}("\u002F"));
