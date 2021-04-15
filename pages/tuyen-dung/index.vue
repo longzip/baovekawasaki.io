@@ -18,19 +18,19 @@ export default {
     Post,
   },
   async asyncData({ $sanity }) {
-    // const querySave = groq`*[_type == 'post' && author._ref == '2a7d74a8-83da-4dd0-9c0f-9f3bce87a51f']{_id, title, slug}`
     const query = groq`*[_type == "post" && author._ref == '3aedb093-827e-46dc-bdc0-992b1a8b818c']{_id, title, body, slug, 'imageId': mainImage.asset->_id}`
     const posts = await $sanity.fetch(query)
     return { posts }
   },
   head() {
     return {
-      title: 'Nộp hồ sơ xin làm nhân viên bảo vệ -Công ty bảo vệ tại Vĩnh Phúc',
+      title: 'Nộp hồ sơ xin làm nhân viên bảo vệ - Công ty bảo vệ Kawasaki',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Công Ty Tnhh Dịch Vụ Bảo Vệ An Ninh Phía Bắc, Lạc Long Quân, Hùng Vương, Phúc Yên, Vĩnh Phúc nhận hồ sơ xin làm bảo vệ, kcn khai quang tuyển dụng bảo vệ...',
+          content:
+            'Công Ty Bảo Vệ Kawasaki nhận hồ sơ xin làm bảo vệ, kcn khai quang tuyển dụng bảo vệ...',
         },
       ],
     }
