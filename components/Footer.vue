@@ -154,7 +154,7 @@
       }
       gtag('js', new Date())
 
-      gtag('config', 'G-2G9ZM8JQ20')
+      gtag('config', 'G-MPB69G6B3V')
     </script>
     <!-- Facebook Pixel Code -->
     <script>
