@@ -170,29 +170,31 @@ export default {
   modules: ['@nuxtjs/sitemap'],
 
   sitemap: {
+    defaults: {
+      changefreq: 'daily',
+      priority: 0.8,
+      lastmod: new Date(),
+    },
     hostname: website,
     gzip: true,
     routes: [
       {
         url: '/',
         priority: 1.0,
-        lastmod: new Date(),
       },
-      {
-        url: '/tuyen-dung/',
-        priority: 0.8,
-        lastmod: new Date(),
-      },
-      {
-        url: '/nop-ho-so-ung-tuyen/',
-        priority: 0.8,
-        lastmod: new Date(),
-      },
+      // {
+      //   url: '/tuyen-dung/',
+      //   priority: 0.8,
+      //   lastmod: new Date(),
+      // },
+      // {
+      //   url: '/nop-ho-so-ung-tuyen/',
+      //   priority: 0.8,
+      //   lastmod: new Date(),
+      // },
       ...jobs.map((job) => {
         return {
           url: `/tuyen-dung/${job.slug.current}/`,
-          priority: 0.8,
-          lastmod: new Date(),
         }
       }),
     ],
