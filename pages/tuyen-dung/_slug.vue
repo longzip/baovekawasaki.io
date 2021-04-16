@@ -25,7 +25,7 @@
                     <ul>
                       <li>
                         <a
-                          :href="`https://baoveanninhphiabac.ga${$route.fullPath}/#ung_tuyen`"
+                          :href="`https://baovekawasaki.tk${$route.fullPath}/#ung_tuyen`"
                           class="btn btn-default"
                           >Ứng tuyển ngay</a
                         >
@@ -48,14 +48,14 @@
                         <div
                           class="fb-share-button"
                           :data-href="
-                            'https://baoveanninhphiabac.ga' + $route.fullPath + '/'
+                            'https://baovekawasaki.tk' + $route.fullPath + '/'
                           "
                           data-layout="button_count"
                           data-size="small"
                         >
                           <a
                             target="_blank"
-                            :href="`https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbaoveanninhphiabac.ga${encodeURI(
+                            :href="`https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbaovekawasaki.tk${encodeURI(
                               $route.fullPath + '/'
                             )}&amp;src=sdkpreparse`"
                             class="fb-xfbml-parse-ignore"
@@ -84,7 +84,7 @@
                   <div
                     class="fb-like"
                     :data-href="
-                      'https://baoveanninhphiabac.ga' + $route.fullPath + '/'
+                      'https://baovekawasaki.tk' + $route.fullPath + '/'
                     "
                     data-width=""
                     data-layout="button"
@@ -96,7 +96,7 @@
                   <div
                     class="fb-save"
                     :data-uri="
-                      'https://baoveanninhphiabac.ga' + $route.fullPath + '/'
+                      'https://baovekawasaki.tk' + $route.fullPath + '/'
                     "
                     data-size="large"
                   ></div>
@@ -173,7 +173,7 @@
           ></div>
           <div
             class="fb-comments"
-            :data-href="'https://baoveanninhphiabac.ga' + $route.fullPath + '/'"
+            :data-href="'https://baovekawasaki.tk' + $route.fullPath + '/'"
             data-width=""
             data-numposts="5"
           ></div>
@@ -230,19 +230,19 @@ export default {
             employmentType: 'CONTRACTOR',
             hiringOrganization: {
               '@type': 'Organization',
-              name: 'Công Ty TNHH Dịch Vụ Bảo Vệ An Ninh Phía Bắc',
-              sameAs: 'https://baoveanninhphiabac.ga',
-              logo: 'https://baoveanninhphiabac.ga/images/logo.png',
+              name: 'Công Ty TNHH Liên Doanh Dịch Vụ Bảo Vệ Kawasaki Việt Nam',
+              sameAs: 'https://baovekawasaki.tk',
+              logo: 'https://baovekawasaki.tk/images/logo.png',
             },
             jobLocation: {
               '@type': 'Place',
               address: {
                 '@type': 'PostalAddress',
                 streetAddress:
-                  '38, Tổ 13, Phường Trưng Trắc, Thị Xã Phúc Yên, Phường Trưng Trắc, Phúc Yên, Vĩnh Phúc',
-                addressLocality: 'Vĩnh Phúc',
-                addressRegion: 'Vĩnh Phúc',
-                postalCode: '15000',
+                  'Tầng 1, nhà chung cư 12 tầng, Thị Trấn Quang Minh, Huyện Mê Linh, Thành phố Hà Nội, Việt Nam',
+                addressLocality: 'Hà Nội',
+                addressRegion: 'Hà Nội',
+                postalCode: '12907',
                 addressCountry: 'VN',
               },
             },

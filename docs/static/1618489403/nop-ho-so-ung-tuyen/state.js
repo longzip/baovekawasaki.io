@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"https:\u002F\u002Fbaovekawasaki.tk\u002Fstatic\u002F1618489403",layout:"default",error:null,serverRendered:true,routePath:"\u002Fnop-ho-so-ung-tuyen",config:{_app:{basePath:a,assetsPath:a,cdnURL:"https:\u002F\u002Fbaovekawasaki.tk\u002F"}}}}("\u002F"));
