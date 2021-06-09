@@ -10,7 +10,7 @@
       >
         <span
           id="blackOverlay"
-          class="w-full h-full absolute opacity-75 bg-black"
+          class="w-full h-full absolute opacity-10 bg-black"
         ></span>
       </div>
       <div class="container relative mx-auto">
