@@ -1,28 +1,43 @@
 <template>
   <div>
     <div
-      class="inner-banner-style-01 b-img-home"
-      style="background-position: 50% 0px"
+      class="relative pt-16 pb-32 flex content-center items-center justify-center"
+      style="min-height: 75vh"
     >
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="info">
-              <h1>Công ty bảo vệ kawasaki tuyển dụng</h1>
+      <div
+        class="absolute top-0 w-full h-full bg-center bg-cover"
+        style="background-image: url('/images/cong-ty-bao-ve-kawasaki-tuyen-dung.jpg');"
+      >
+        <span
+          id="blackOverlay"
+          class="w-full h-full absolute opacity-75 bg-black"
+        ></span>
+      </div>
+      <div class="container relative mx-auto">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+            <div class="pr-12">
+              <h1 class="text-white font-semibold text-5xl">
+                Công ty bảo vệ kawasaki tuyển dụng
+              </h1>
+              <!-- <p class="mt-4 text-lg text-gray-300">
+                
+              </p> -->
             </div>
           </div>
         </div>
       </div>
     </div>
-    <article class="blue-bg-1">
-      <div class="container mockup-section-02 call-to-action-07">
-        <div class="row">
-          <div class="col-lg-12">
-            <h2>
+
+    <article class="pb-20 relative block bg-blue-900">
+      <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+        <div class="flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-4xl font-semibold text-white">
               Thông báo tuyển bảo vệ tại Hà Nội làm theo ca 8 tiếng, 12 tiếng,
               ca đêm bao ăn ở
             </h2>
-            <p>
+            <p class="text-lg leading-relaxed mt-4 mb-4 text-white">
               Bạn là Nam hoặc Nữ trong độ tuổi lao động có sức khỏe đang
               <strong>tìm việc bảo vệ tại Hà Nội</strong>. Hoặc tìm việc làm bảo
               vệ tại Hà Đông. Mong muốn làm việc lâu dài, ổn định, làm bảo vệ
@@ -31,7 +46,7 @@
               ưu tiên tuyển bảo vệ những người có kinh nghiệm; đã qua Công an,
               Quân đội.
             </p>
-            <ol>
+            <ol class="text-lg leading-relaxed mt-4 mb-4 text-white">
               <li>Miễn phí 100% Nhà ở</li>
               <li>Miễn phí Ăn ca (Tùy mục tiêu bảo vệ)</li>
               <li>
@@ -39,23 +54,27 @@
               </li>
             </ol>
 
-            <p>Chế độ đặc biệt:</p>
-            <ul>
+            <p class="text-lg leading-relaxed mt-4 mb-4 text-white">
+              Chế độ đặc biệt:
+            </p>
+            <ul class="text-lg leading-relaxed mt-4 mb-4 text-white">
               <li>Nam 20-45 cao 1m66, nặng 55kg có bằng cấp 2 trở lên</li>
               <li>Nữ 18-38 cao từ 1m58, nặng 45kg có bằng câp 2 trở lên</li>
             </ul>
-            <p>
+            <p class="text-lg leading-relaxed mt-4 mb-4 text-white">
               Các trường hợp đủ điều kiện trên sẽ được hưởng mức lương thỏa
               thuận ngay từ tháng đầu tiên.
             </p>
 
-            <h2>Tuyển gấp 200 nam/nữ làm bảo vệ theo ca tại Hà Nội</h2>
-            <p>
+            <h2 class="text-4xl font-semibold text-white">
+              Tuyển gấp 200 nam/nữ làm bảo vệ theo ca tại Hà Nội
+            </h2>
+            <p class="text-lg leading-relaxed mt-4 mb-4 text-white">
               Nội thành, ngoại thành Hà Nội và các tỉnh: Tuyên Quang, Vĩnh Phúc,
               Hưng Yên, Bắc Ninh, Quảng ninh, Hà Nam, Bình Thuận, Long An, Ninh
               Bình.... (Hộ khẩu ở đâu làm việc lâu dài ở đó)
             </p>
-            <p>
+            <p class="text-lg leading-relaxed mt-4 mb-4 text-white">
               Người lao động được tham gia bảo hiểm, được hưởng các chế độ chính
               sách theo pháp luật và qui định của Công ty. Công ty Bảo Vệ
               Kawasaki chi thưởng cho CBNV các dịp lễ, tết và đặc biệt cuối năm
@@ -66,8 +85,10 @@
               hành chính 8h/ngày và 26 ngày/tháng, nghỉ chủ nhật và hưởng lương
               bình quân từ 8.000.000đ đến trên 20.000.000đ/tháng.
             </p>
-            <p class="warning">Lưu ý:</p>
-            <ul>
+            <p class="text-xl leading-relaxed mt-4 mb-4 text-pink-500">
+              Lưu ý:
+            </p>
+            <ul class="text-lg leading-relaxed mt-4 mb-4 text-white">
               <li>
                 Được cấp phát đồng phục miễn phí 500.000 (Áp dụng khu vực Vĩnh
                 Phúc trước ngày 14/04/2021)
@@ -76,314 +97,206 @@
               <li>Hỗ trợ độc hại 100.000 (tùy từng mục tiêu)</li>
               <li>Làm giờ hành chính, ca 8 tiếng (tùy từng mục tiêu)</li>
             </ul>
-            <div class="button">
-              <a href="#mc-embedded-subscribe-form" class="fill"
-                >Có, tôi muốn làm bảo vệ</a
+            <div class="inline-flex rounded-md shadow">
+              <a
+                href="#mc-embedded-subscribe-form"
+                class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
               >
+                Có, tôi muốn làm bảo vệ
+              </a>
             </div>
           </div>
         </div>
       </div>
     </article>
-
-    <div class="call-to-action-03 container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 herotext">
-          <h2>Tìm việc làm bảo vệ tại Hà Nội</h2>
-          <div class="description">
-            <p>
-              <NuxtLink to="/"
-                >Công ty TNHH liên doanh dịch vụ bảo vệ Kawasaki Việt
-                Nam</NuxtLink
-              >
-              được thành lập năm 2012, có địa chỉ tại Tầng 1, nhà chung cư 12
-              tầng - Thị trấn Quang Minh - Huyện Mê Linh - Hà Nội
-            </p>
-            <p>
-              Bạn đang tìm việc an ninh, bảo vệ tại Hà Nội, muốn làm bảo vệ theo
-              ca 8 tiếng, ca đêm (trực đêm).
-            </p>
-          </div>
-          <div class="button">
-            <a href="" class="no-fill hidden-xs">LIÊN HỆ</a>
-            <a href="" class="fill">TÌM HIỂU</a>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 picture">
-          <img
-            src="/images/dao-tao-bao-ve-chuyen-nghiep.jpg"
-            class="img-responsive center-block"
-            alt="công ty bảo vệ kawasaki tuyển dụng"
-          />
-        </div>
-      </div>
-    </div>
-
-    <div class="container team-style-01">
-      <div class="row">
-        <div class="col-lg-12 herotext">
-          <div class="description">
-            Tìm ngay cho mình việc làm ở
-            <em>công ty bảo vệ tuyển dụng tại hà nội</em>.
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-4 block">
-          <div class="picture">
+    <section class="relative py-20">
+      <div class="container mx-auto px-4">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
             <img
-              src="/images/tuyen-bao-ve-chung-cu-tai-ha-noi.jpg"
-              class="img-responsive"
-              alt="Tuyển dụng việc làm vĩnh phúc"
+              alt="Công ty bảo vệ kawasaki tuyển dụng"
+              class="max-w-full rounded-lg shadow-lg"
+              src="/images/dao-tao-bao-ve-chuyen-nghiep.jpg"
             />
-            <!-- Picture Overlay Starts -->
-            <div class="picture-overlay">
-              <div class="icons">
-                <div>
-                  <span class="icon"
-                    ><a
-                      href="/images/tuyen-bao-ve-chung-cu-tai-ha-noi.jpg"
-                      class="image-popup-vertical-fit"
-                      title="Pellentesque Habitant"
-                      ><i class="fa fa-search"></i></a
-                  ></span>
-                </div>
-              </div>
-            </div>
-            <!-- Picture Overlay Ends -->
           </div>
-          <div class="name">Tuyển bảo vệ chung cư tại hà nội</div>
-          <div class="designation">bảo vệ kawasaki</div>
-          <div class="description">
-            “Ngày 11/11/2020, công ty TNHH LDDV bảo vệ Kawasaki Việt Nam triển
-            khai bảo vệ mục tiêu mới tại toà nhà, địa chỉ 343 Đội Cấn- Ba Đình-
-            Hà Nội”
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-4 block">
-          <div class="picture">
-            <img
-              src="/images/bao-ve-kawasaki-dao-tao.jpg"
-              class="img-responsive"
-              alt="tuyển đội trưởng bảo vệ tại hà nội"
-            />
-            <!-- Picture Overlay Starts -->
-            <div class="picture-overlay">
-              <div class="icons">
-                <div>
-                  <span class="icon"
-                    ><a
-                      href="/images/bao-ve-kawasaki-dao-tao.jpg"
-                      class="image-popup-vertical-fit"
-                      title="Pellentesque Habitant"
-                      ><i class="fa fa-search"></i></a
-                  ></span>
-                </div>
-              </div>
-            </div>
-            <!-- Picture Overlay Ends -->
-          </div>
-          <div class="name">tuyển đội trưởng bảo vệ tại hà nội</div>
-          <div class="designation">bảo vệ kawasaki</div>
-          <div class="description">
-            Bảo vệ kawasaki được đào tạo và thực hành thực tế với công an.
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-4 block">
-          <div class="picture">
-            <img
-              src="/images/tuyen-bao-ve-tai-ha-noi-truc-camera.jpg"
-              class="img-responsive"
-              alt="việc làm bảo vệ ở hà nội"
-            />
-            <!-- Picture Overlay Starts -->
-            <div class="picture-overlay">
-              <div class="icons">
-                <div>
-                  <span class="icon"
-                    ><a
-                      href="/images/tuyen-bao-ve-tai-ha-noi-truc-camera.jpg"
-                      class="image-popup-vertical-fit"
-                      title="Pellentesque Habitant"
-                      ><i class="fa fa-search"></i></a
-                  ></span>
-                </div>
-              </div>
-            </div>
-            <!-- Picture Overlay Ends -->
-          </div>
-          <div class="name">việc làm bảo vệ ở hà nội</div>
-          <div class="designation">bảo vệ kawasaki</div>
-          <div class="description">
-            Công ty Bảo Vệ Kawasaki liên tục tuyển dụng và đào tạo bảo vệ, vệ sĩ
-            chuyên nghiệp tại Hà Nội.
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="grey-bg">
-      <div class="container contact-07">
-        <div class="row">
-          <div class="col-lg-10 col-lg-offset-1 herotext">
-            <h2>Nhận thông báo tuyển dụng việc làm nhân viên bảo vệ</h2>
-            <div class="description">
-              Bạn không có thời gian, không muốn bỏ lỡ bất kỳ thông báo tuyển
-              dụng <em>việc làm bảo vệ ở hà nội</em>. Chúng tôi sẽ giúp bạn cập
-              nhật bản tin tuyển dụng bảo vệ mới nhất. Vui lòng cho chúng tôi
-              biết email của bạn và số điện thoại liên hệ để
-              <em>Công ty bảo vệ kawasaki tuyển dụng</em> gửi tới bạn nhé!
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-6">
-            <p class="nhan-thong-bao">
-              Chúng tôi rất trân trọng khi bạn gia nhập vào đội nhóm
-              <strong>Bảo Vệ Kawasaki</strong>
-            </p>
-
-            <form
-              id="mc-embedded-subscribe-form"
-              action="https://baoveanninhphiabac.us4.list-manage.com/subscribe/post?u=0283066ababf88c6f15117b88&amp;id=a6626b645e"
-              class="ContactForm-07"
-              method="post"
-              name="mc-embedded-subscribe-form"
-              target="_blank"
-              novalidate
-            >
-              <div id="mc_embed_signup_scroll" class="form-group">
-                <label>Họ và tên</label>
-                <input
-                  id="mce-FNAME"
-                  type="text"
-                  class="form-control"
-                  name="FNAME"
-                  value=""
-                  placeholder="Họ tên của bạn *"
-                />
-              </div>
-              <div class="form-group">
-                <label for="mce-PHONE">Điện thoại</label>
-                <input
-                  id="mce-PHONE"
-                  class="form-control"
-                  type="text"
-                  name="PHONE"
-                  value=""
-                  placeholder="Số điện thoại Viettel *"
-                />
-              </div>
-              <div class="form-group">
-                <label for="mce-MMERGE6">Địa chỉ</label>
-                <input
-                  id="mce-MMERGE6"
-                  type="text"
-                  value=""
-                  name="MMERGE6"
-                  class="form-control"
-                  placeholder="Địa chỉ nhà bạn *"
-                />
-              </div>
-              <div class="form-group">
-                <label>Email</label>
-                <input
-                  id="mce-EMAIL"
-                  type="email"
-                  class="form-control"
-                  name="EMAIL"
-                  value="ten_ban@gmail.com"
-                  placeholder="Địa chỉ email nhận thông báo *"
-                />
-              </div>
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <div style="position: absolute; left: -5000px" aria-hidden="true">
-                <input
-                  type="text"
-                  name="b_0283066ababf88c6f15117b88_a6626b645e"
-                  tabindex="-1"
-                  value=""
-                />
-              </div>
-              <div class="button">
-                <button
-                  id="mc-embedded-subscribe"
-                  type="submit"
-                  class="btn btn-default submitf-07"
-                  value="Subscribe"
-                  name="subscribe"
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+            <div class="md:pr-12">
+              <h3 class="text-3xl font-semibold">
+                Tìm việc làm bảo vệ tại Hà Nội
+              </h3>
+              <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
+                <NuxtLink to="/"
+                  >Công ty TNHH liên doanh dịch vụ bảo vệ Kawasaki Việt
+                  Nam</NuxtLink
                 >
-                  Đồng ý
-                </button>
-              </div>
-              <div class="message_post-07"></div>
-            </form>
-          </div>
-          <div
-            class="col-lg-5 col-md-5 col-sm-5 col-lg-offset-1 col-md-offset-1 col-sm-offset-1"
-          >
-            <div class="white-bg address-block">
-              <h3>Văn phòng công ty bảo vệ tuyển dụng tại hà nội</h3>
-              <address>
-                <strong
-                  >Tập Đoàn Liên Doanh Dịch Vụ Bảo Vệ Kawasaki Việt Nam</strong
-                ><br />
-                Tầng 1, nhà chung cư 12 tầng, Thị Trấn Quang Minh, Huyện Mê
-                Linh, Thành phố Hà Nội, Việt Nam
-              </address>
-              <address>
-                <div class="phone">
-                  <i class="fa fa-mobile"></i> 097 833 39 63
-                </div>
-                <div class="email">
-                  <i class="fa fa-envelope"></i>
-                  <a href="mailto:tuyendung@baovekawasaki.tk"
-                    >tuyendung@baovekawasaki.tk</a
-                  >
-                </div>
-              </address>
-              <h3>Kết nối và theo dõi chúng tôi</h3>
-              <ul class="social-icons">
-                <li>
-                  <a href="https://fb.me/tuyenbaovekawasaki"
-                    ><i class="fa fa-facebook"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href=""><i class="fa fa-instagram"></i></a>
-                </li>
-                <li>
-                  <a href=""><i class="fa fa-youtube"></i></a>
-                </li>
-                <li>
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                </li>
-              </ul>
+                được thành lập năm 2012, có địa chỉ tại Tầng 1, nhà chung cư 12
+                tầng - Thị trấn Quang Minh - Huyện Mê Linh - Hà Nội
+              </p>
+              <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
+                Bạn đang tìm việc an ninh, bảo vệ tại Hà Nội, muốn làm bảo vệ
+                theo ca 8 tiếng, ca đêm (trực đêm).
+              </p>
             </div>
           </div>
         </div>
       </div>
+    </section>
+    <div class="bg-gray-50">
+      <div
+        class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between"
+      >
+        <h2
+          class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+        >
+          <span class="block">Bạn đã sẵn sàng làm bảo vệ?</span>
+          <span class="block text-indigo-600"
+            >Hãy để chúng tôi gửi thông báo tuyển dụng cho bạn ngay hôm
+            nay.</span
+          >
+        </h2>
+        <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+          <div class="inline-flex rounded-md shadow">
+            <a
+              href="#mc-embedded-subscribe-form"
+              class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
+            >
+              Có, tôi muốn
+            </a>
+          </div>
+          <div class="ml-3 inline-flex rounded-md shadow">
+            <a
+              href="/tuyen-dung/"
+              class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50"
+            >
+              Tìm hiểu thêm
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
+    <section class="pt-20 pb-48">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-center text-center mb-24">
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-4xl font-semibold">
+              Tìm ngay cho mình việc làm ở
+              <em class="block text-indigo-600"
+                >công ty bảo vệ tuyển dụng tại hà nội</em
+              >.
+            </h2>
+            <p class="text-lg leading-relaxed m-4 text-blueGray-500">
+              Chúng tôi đang tuyển dụng gấp nhân viên bảo vệ tại Hà Nội đi làm
+              ngay.
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap">
+          <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <img
+                alt="Tuyển dụng việc làm vĩnh phúc"
+                src="/images/tuyen-bao-ve-chung-cu-tai-ha-noi.jpg"
+                class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px"
+              />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">
+                  Tuyển bảo vệ chung cư tại hà nội
+                </h5>
+                <p
+                  class="mt-1 text-sm text-blueGray-400 uppercase font-semibold"
+                >
+                  bảo vệ kawasaki
+                </p>
+                <p class="mt-1">
+                  “Ngày 11/11/2020, công ty TNHH LDDV bảo vệ Kawasaki Việt Nam
+                  triển khai bảo vệ mục tiêu mới tại toà nhà, địa chỉ 343 Đội
+                  Cấn- Ba Đình- Hà Nội”
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <img
+                alt="Tuyển đội trưởng bảo vệ tại Hà Nội"
+                src="/images/bao-ve-kawasaki-dao-tao.jpg"
+                class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px"
+              />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">
+                  Tuyển đội trưởng bảo vệ tại hà nội
+                </h5>
+                <p
+                  class="mt-1 text-sm text-blueGray-400 uppercase font-semibold"
+                >
+                  bảo vệ kawasaki
+                </p>
+                <p class="mt-1">
+                  Bảo vệ kawasaki được đào tạo và thực hành thực tế với công an.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <img
+                alt="Việc làm bảo vệ ở Hà Nội"
+                src="/images/tuyen-bao-ve-tai-ha-noi-truc-camera.jpg"
+                class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px"
+              />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">
+                  Tuyển bảo vệ chung cư tại hà nội
+                </h5>
+                <p
+                  class="mt-1 text-sm text-blueGray-400 uppercase font-semibold"
+                >
+                  bảo vệ kawasaki
+                </p>
+                <p class="mt-1">
+                  Công ty Bảo Vệ Kawasaki liên tục tuyển dụng và đào tạo bảo vệ,
+                  vệ sĩ chuyên nghiệp tại Hà Nội.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pb-20 relative block bg-blue-900">
+      <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+        <div class="flex flex-wrap text-center justify-center">
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-4xl font-semibold text-white pt-1">
+              Nhận thông báo tuyển dụng việc làm nhân viên bảo vệ
+            </h2>
+            <p class="text-lg leading-relaxed mt-4 mb-4 text-white">
+              Bạn không có thời gian, không muốn bỏ lỡ bất kỳ thông báo
+              <strong>tuyển dụng việc làm bảo vệ ở hà nội</strong>. Chúng tôi sẽ
+              giúp bạn cập nhật bản tin tuyển dụng bảo vệ mới nhất. Vui lòng cho
+              chúng tôi biết email của bạn và số điện thoại liên hệ để
+              <em>Công ty bảo vệ kawasaki tuyển dụng</em> gửi tới bạn nhé!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block py-24 lg:pt-0 bg-blue-900">
+      <div class="container mx-auto px-4">
+        <MailchimpSignupForm />
+      </div>
+    </section>
   </div>
 </template>
-
-<style scoped>
-.b-img-home {
-  background-attachment: fixed;
-  background-image: url(/images/cong-ty-bao-ve-kawasaki-tuyen-dung.jpg);
-  background-repeat: repeat-y;
-  background-position: 50% 0;
-  background-size: cover;
+<script>
+import MailchimpSignupForm from '@/components/MailChimpSignupForm.vue'
+export default {
+  components: {
+    MailchimpSignupForm,
+  },
 }
-.nhan-thong-bao {
-  font-size: 38px;
-  font-weight: 200;
-  padding-bottom: 2px;
-  color: #000;
-}
-.warning {
-  text-decoration: underline;
-  font-style: italic;
-  font-weight: bold;
-}
-</style>
+</script>

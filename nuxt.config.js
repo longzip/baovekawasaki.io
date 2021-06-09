@@ -3,7 +3,7 @@ const website = 'https://baovekawasaki.tk'
 const title =
   'Công ty bảo vệ Kawasaki tuyển dụng Tìm việc làm bảo vệ bảo hà nội'
 const content =
-  'Tìm việc làm nhân viên bảo vệ bảo ăn ở tại hà nội. Công ty bảo vệ Kawasaki tuyển dụng,  Đảm bảo thu nhập từ 6-12 triệu, hỗ trợ ăn, ở miễn phí. Nhận hồ sơ..'
+  'Tìm việc làm nhân viên bảo vệ bảo ăn ở tại hà nội. Công ty bảo vệ Kawasaki tuyển dụng, Đảm bảo thu nhập từ 6-12 triệu, hỗ trợ ăn, ở miễn phí. Nhận hồ sơ..'
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -102,29 +102,6 @@ export default {
         href: '/favicon-16x16.png',
       },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {
-        rel: 'stylesheet',
-        href:
-          'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css',
-      },
-      {
-        rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic',
-      },
-      {
-        rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700',
-      },
-      {
-        rel: 'stylesheet',
-        href: '/fonts/font-awesome/css/font-awesome.min.css',
-      },
-      {
-        rel: 'stylesheet',
-        href: '/css/stylesheet.css',
-      },
     ],
     script: [
       {
@@ -163,6 +140,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     // '@nuxtjs/eslint-module',
+    '@nuxtjs/tailwindcss',
     '@nuxtjs/sanity',
   ],
 
@@ -182,16 +160,6 @@ export default {
         url: '/',
         priority: 1.0,
       },
-      // {
-      //   url: '/tuyen-dung/',
-      //   priority: 0.8,
-      //   lastmod: new Date(),
-      // },
-      // {
-      //   url: '/nop-ho-so-ung-tuyen/',
-      //   priority: 0.8,
-      //   lastmod: new Date(),
-      // },
       ...jobs.map((job) => {
         return {
           url: `/tuyen-dung/${job.slug.current}/`,
@@ -207,7 +175,7 @@ export default {
   generate: {
     dir: 'docs',
   },
-  server: {
-    host: '0', // default: localhost
-  },
+  // server: {
+  //   host: '0', // default: localhost
+  // },
 }

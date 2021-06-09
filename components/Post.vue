@@ -1,6 +1,5 @@
 <template>
   <div class="post">
-    <!-- {{ post }} -->
     <div v-if="post.imageId" class="image">
       <SanityImage :asset-id="post.imageId" auto="format">
         <template #default="{ src }">
@@ -33,7 +32,9 @@
       />
     </div>
     <div class="button">
-      <NuxtLink :to="'/tuyen-dung/' + post.slug.current + '/'">Đọc tiếp... </NuxtLink>
+      <NuxtLink :to="'/tuyen-dung/' + post.slug.current + '/'"
+        >Đọc tiếp...
+      </NuxtLink>
     </div>
   </div>
 </template>
