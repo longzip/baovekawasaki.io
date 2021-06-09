@@ -6,181 +6,44 @@
       :description="post.body[0].children[0].text"
       :image="post.imageUrl"
     />
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-9 col-md-9 col-sm-8">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="post">
-                <div class="image">
-                  <img
-                    :src="post.imageUrl"
-                    class="img-responsive"
-                    :alt="post.body[0].children[0].text"
-                  />
-                </div>
-                <h1 v-text="post.title"></h1>
-                <div class="clearfix">
-                  <div class="meta">
-                    <ul>
-                      <li>
-                        <a
-                          :href="`https://baovekawasaki.tk${$route.fullPath}/#ung_tuyen`"
-                          class="btn btn-default"
-                          >Ứng tuyển ngay</a
-                        >
-                      </li>
-                      <li>tìm việc <a href="#">Bảo vệ An Thịnh Phát</a></li>
-                      <li>việc làm <a href="#">Bảo vệ Vĩnh Phúc</a></li>
-                    </ul>
-                  </div>
-                  <div class="like-comment-share">
-                    <ul>
-                      <li class="like">
-                        <a href="#" class="like"
-                          ><i class="fa fa-heart"></i>292</a
-                        >
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-comment"></i> 21</a>
-                      </li>
-                      <li>
-                        <div
-                          class="fb-share-button"
-                          :data-href="
-                            'https://baovekawasaki.tk' + $route.fullPath + '/'
-                          "
-                          data-layout="button_count"
-                          data-size="small"
-                        >
-                          <a
-                            target="_blank"
-                            :href="`https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbaovekawasaki.tk${encodeURI(
-                              $route.fullPath + '/'
-                            )}&amp;src=sdkpreparse`"
-                            class="fb-xfbml-parse-ignore"
-                            >Chia sẻ</a
-                          >
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="description">
-                  <block-content
-                    v-for="child in post.body"
-                    :key="child._id"
-                    :blocks="child"
-                  />
-                  <div>
-                    <p>
-                      Bằng cách chia sẻ tin tuyển dụng:
-                      <em>{{ post.title }}</em> bạn đã giúp mình lưu lại cơ hội
-                      việc làm này và giúp người thân, bạn bè của bạn, chúng tôi
-                      được kết nối thêm cơ hội việc làm mới. Chúng tôi rất vui
-                      được kết nối đến bạn khi bạn chia sẻ ngay.
-                    </p>
-                  </div>
-                  <div
-                    class="fb-like"
-                    :data-href="
-                      'https://baovekawasaki.tk' + $route.fullPath + '/'
-                    "
-                    data-width=""
-                    data-layout="button"
-                    data-action="like"
-                    data-size="small"
-                    data-share="true"
-                  ></div>
-                  <br />
-                  <div
-                    class="fb-save"
-                    :data-uri="
-                      'https://baovekawasaki.tk' + $route.fullPath + '/'
-                    "
-                    data-size="large"
-                  ></div>
-                </div>
-              </div>
-              <div id="ung_tuyen" class="leave-a-reply">
-                <h3>Ứng tuyển: {{ post.title }}</h3>
-                <div class="row">
-                  <div class="col-lg-4 col-md-4 col-sm-4">
-                    <div class="form-group">
-                      <input
-                        id="CommentName"
-                        type="text"
-                        class="form-control"
-                        placeholder="Họ và tên"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-4 col-sm-4">
-                    <div class="form-group">
-                      <input
-                        id="CommentEmail"
-                        type="email"
-                        class="form-control"
-                        placeholder="Địa chỉ email"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-lg-4 col-md-4 col-sm-4">
-                    <div class="form-group">
-                      <input
-                        id="CommentWebsite"
-                        type="text"
-                        class="form-control"
-                        placeholder="Số điện thoại"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="form-group">
-                      <textarea
-                        class="form-control"
-                        rows="10"
-                        placeholder="Viết giới thiệu ngắn gọn về bản thân (điểm mạnh, điểm yếu) và nêu rõ mong muốn, lý do làm việc tại công ty này. Đây là cách gây ấn tượng với nhà tuyển dụng nếu bạn có chưa có kinh nghiệm làm việc (hoặc CV không tốt)."
-                      ></textarea>
-                    </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <button type="submit" class="btn btn-default" disabled>
-                      Nộp hồ sơ
-                    </button>
-                    <br />
-                    <span
-                      >Chức năng đang cập nhật... Mời bạn qua văn phòng công ty
-                      để nộp hồ sơ trực tiếp</span
-                    >
-                  </div>
-                </div>
-              </div>
+    <div
+      class="relative pt-16 pb-32 flex content-center items-center justify-center"
+      style="min-height: 75vh"
+    >
+      <div
+        class="absolute top-0 w-full h-full bg-center bg-cover"
+        :style="`background-image: url('${post.imageUrl}');`"
+      >
+        <span
+          id="blackOverlay"
+          class="w-full h-full absolute opacity-10 bg-black"
+        ></span>
+      </div>
+      <div class="container relative mx-auto">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+            <div class="pr-12">
+              <h1 class="text-white font-semibold text-5xl">
+                {{ post.title }}
+              </h1>
             </div>
           </div>
-          <script
-            async
-            defer
-            crossorigin="anonymous"
-            src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v10.0&appId=242726457596775&autoLogAppEvents=1"
-            nonce="D6wC9xAj"
-          ></script>
-          <!-- Your Chat Plugin code -->
-          <div
-            class="fb-customerchat"
-            attribution="setup_tool"
-            page_id="110994124405341"
-          ></div>
-          <div
-            class="fb-comments"
-            :data-href="'https://baovekawasaki.tk' + $route.fullPath + '/'"
-            data-width=""
-            data-numposts="5"
-          ></div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-4 sidebar"></div>
       </div>
     </div>
+    <article class="pb-20 relative block bg-blue-900">
+      <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+        <div class="flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4 text-white">
+            <block-content
+              v-for="child in post.body"
+              :key="child._id"
+              :blocks="child"
+            />
+          </div>
+        </div>
+      </div>
+    </article>
   </article>
 </template>
 

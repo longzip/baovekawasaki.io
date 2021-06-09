@@ -1,36 +1,49 @@
 <template>
   <div>
-    <div class="inner-banner-style-01 b-img-gt">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="info">
-              <h1>Tuyển dụng nhân viên bảo vệ chuyên nghiệp</h1>
+    <div
+      class="relative pt-16 pb-32 flex content-center items-center justify-center"
+      style="min-height: 75vh"
+    >
+      <div
+        class="absolute top-0 w-full h-full bg-center bg-cover"
+        style="background-image: url('/images/cong-ty-bao-ve-kawasaki-tuyen-dung.jpg');"
+      >
+        <span
+          id="blackOverlay"
+          class="w-full h-full absolute opacity-10 bg-black"
+        ></span>
+      </div>
+      <div class="container relative mx-auto">
+        <div class="items-center flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+            <div class="pr-12">
+              <h1 class="text-white font-semibold text-5xl">
+                Tuyển dụng nhân viên bảo vệ chuyên nghiệp
+              </h1>
+              <!-- <p class="mt-4 text-lg text-gray-300">
+                
+              </p> -->
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="about-01">
-      <!-- INTRO STARTS
-				========================================================================= -->
-      <div class="container intro">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 herotext">
-            <h2>TUYỂN DỤNG BẢO VỆ</h2>
-            <h1>Công ty Bảo Vệ Kawasaki</h1>
-            <div class="description">
+    <article class="pb-20 relative block bg-blue-900">
+      <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+        <div class="flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-4xl font-semibold text-white">
+              Tuyển dụng bảo vệ - công ty bảo vệ kawasaki
+            </h2>
+            <p class="text-lg leading-relaxed mt-4 mb-4 text-white">
               Tuyển dụng bảo vệ Kawasaki cảm ơn bạn đã quan tâm tin tuyển bảo vệ
               của chúng tôi.
-            </div>
+            </p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-6 col-lg-offset-3"></div>
-        </div>
       </div>
-    </div>
+    </article>
   </div>
 </template>
 <style scoped>

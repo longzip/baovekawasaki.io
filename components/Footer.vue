@@ -120,6 +120,12 @@
           </div>
         </div>
       </div>
+
+      <!-- Messenger Plugin chat Code -->
+      <div id="fb-root"></div>
+
+      <!-- Your Plugin chat code -->
+      <div id="fb-customer-chat" class="fb-customerchat"></div>
     </div>
     <div class="hidden">
       <svg id="call" viewBox="0 0 24 24">
@@ -162,6 +168,68 @@
         ></path>
       </svg>
     </div>
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat')
+      chatbox.setAttribute('page_id', '102212361942672')
+      chatbox.setAttribute('attribution', 'biz_inbox')
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: 'v11.0',
+        })
+      }
+      ;(function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0]
+        if (d.getElementById(id)) return
+        js = d.createElement(s)
+        js.id = id
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js'
+        fjs.parentNode.insertBefore(js, fjs)
+      })(document, 'script', 'facebook-jssdk')
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-SFDXCZ47RJ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+      gtag('config', 'G-MPB69G6B3V')
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments)
+        }
+        if (!f._fbq) f._fbq = n
+        n.push = n
+        n.loaded = !0
+        n.version = '2.0'
+        n.queue = []
+        t = b.createElement(e)
+        t.async = !0
+        t.src = v
+        s = b.getElementsByTagName(e)[0]
+        s.parentNode.insertBefore(t, s)
+      })(
+        window,
+        document,
+        'script',
+        'https://connect.facebook.net/vi_VN/fbevents.js'
+      )
+      fbq('init', '241950547678859')
+      fbq('track', 'PageView')
+    </script>
   </footer>
 </template>
 <script>

@@ -1,5 +1,34 @@
 <template>
-  <div class="post">
+  <div
+    class="overflow-hidden shadow-lg rounded-lg h-90 w-60 md:w-80 cursor-pointer m-auto"
+  >
+    <a
+      :href="'/tuyen-dung/' + post.slug.current + '/'"
+      class="w-full block h-full"
+    >
+      <SanityImage :asset-id="post.imageId" auto="format">
+        <template #default="{ src }">
+          <img
+            :src="src"
+            class="max-h-40 w-full object-cover"
+            :alt="post.title"
+          />
+        </template>
+      </SanityImage>
+      <div class="bg-white dark:bg-gray-800 w-full p-4">
+        <p class="text-indigo-500 text-md font-medium">Tuyển dụng</p>
+        <p class="text-gray-800 dark:text-white text-xl font-medium mb-2">
+          {{ post.title }}
+        </p>
+        <block-content
+          v-if="post.body.length"
+          :key="post.body[0]._id"
+          :blocks="post.body[0]"
+        />
+      </div>
+    </a>
+  </div>
+  <!-- <div class="post">
     <div v-if="post.imageId" class="image">
       <SanityImage :asset-id="post.imageId" auto="format">
         <template #default="{ src }">
@@ -36,7 +65,7 @@
         >Đọc tiếp...
       </NuxtLink>
     </div>
-  </div>
+  </div> -->
 </template>
 <script>
 export default {
