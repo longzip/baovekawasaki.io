@@ -1,5 +1,5 @@
 <template>
-  <article v-if="post" class="blog-detail">
+  <main v-if="post" class="blog-detail">
     <!-- {{ post }} -->
     <SocialHead
       :title="post.title"
@@ -43,13 +43,18 @@
           </div>
         </div>
       </div>
+      <MailchimpSignupForm />
     </article>
-  </article>
+  </main>
 </template>
 
 <script>
 import { groq } from '@nuxtjs/sanity'
+import MailchimpSignupForm from '@/components/MailChimpSignupForm.vue'
 export default {
+  components: {
+    MailchimpSignupForm,
+  },
   async asyncData({ params, $sanity }) {
     const query = groq`*[_type == "post" && slug.current == "${params.slug}"][0]{_id, title, body, slug, 'imageId': mainImage.asset->_id, "imageUrl": mainImage.asset->url}`
     const post = await $sanity.fetch(query)
