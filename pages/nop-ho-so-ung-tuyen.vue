@@ -6,7 +6,9 @@
     >
       <div
         class="absolute top-0 w-full h-full bg-center bg-cover"
-        style="background-image: url('/images/cong-ty-bao-ve-kawasaki-tuyen-dung.jpg');"
+        style="
+          background-image: url('/images/cong-ty-bao-ve-kawasaki-tuyen-dung.jpg');
+        "
       >
         <span
           id="blackOverlay"
@@ -40,6 +42,15 @@
               Tuyển dụng bảo vệ Kawasaki cảm ơn bạn đã quan tâm tin tuyển bảo vệ
               của chúng tôi.
             </p>
+            <p class="text-lg leading-relaxed mt-4 mb-4 text-white">Chi tiết tuyển dụng:</p>
+            <ul class="text-lg leading-relaxed mt-4 mb-4 text-white">
+              <li>
+                Facebook:
+                <a href="https://www.facebook.com/lambaovekawasaki"
+                  >https://www.facebook.com/lambaovekawasaki</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
       </div>

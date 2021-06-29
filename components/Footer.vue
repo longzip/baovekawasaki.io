@@ -84,7 +84,9 @@
                 stroke-width="2"
                 d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
               /></svg
-            ><a class="flex-initial text-lg" href="tel:0978333963">097 833 39 63</a>
+            ><a class="flex-initial text-lg" href="tel:0978333963"
+              >097 833 39 63</a
+            >
           </div>
         </div>
         <div class="w-full md:w-6/12 px-4">
@@ -113,7 +115,7 @@
               >
               <ul class="list-unstyled">
                 <li v-for="(tuKhoa, index) in tuKhoas" :key="index">
-                  <a href="/">{{ tuKhoa }}</a>
+                  <a :href="tuKhoa.url">{{ tuKhoa.title }}</a>
                 </li>
               </ul>
             </div>
@@ -126,14 +128,16 @@
       >
         <div class="w-full md:w-4/12 px-4 mx-auto text-center">
           <div class="text-sm text-blueGray-500 font-semibold py-1">
-            Copyright ©
-            <!-- -->2021<!-- -->
-            Việc làm bảo vệ tại Hà Nội by<!-- -->
+            Copyright © 2021
+            <a href="https://tuyendung.dichvubaovevietnhat.com/"
+              >Việc làm bảo vệ</a
+            >
+            by
             <a
               href="https://lovanlong.ga/"
               class="text-blueGray-500 hover:text-blueGray-800"
               target="_blank"
-              >Thiết kế web Vĩnh Phúc</a
+              >Nhà thiết kế website tại Vĩnh Phúc</a
             >.
           </div>
         </div>
@@ -186,6 +190,19 @@
         ></path>
       </svg>
     </div>
+    <script id="mcjs">
+      !(function (c, h, i, m, p) {
+        ;(m = c.createElement(h)),
+          (p = c.getElementsByTagName(h)[0]),
+          (m.async = 1),
+          (m.src = i),
+          p.parentNode.insertBefore(m, p)
+      })(
+        document,
+        'script',
+        'https://chimpstatic.com/mcjs-connected/js/users/dafd0f159bea8e5be932061e6/3b5f602fcb454a5cdfb96f510.js'
+      )
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -217,24 +234,30 @@ export default {
         },
       ],
       tuKhoas: [
-        'tuyển bảo vệ chung cư tại hà nội',
-        'bảo vệ lương cao tại hà nội',
-        'tìm việc bảo vệ hà nội',
-        'tìm việc bảo vệ ở hà nội',
-        'tuyển nhân viên bảo vệ tại hà nội',
-        'việc làm bảo vệ hà nội',
-        'tuyển đội trưởng bảo vệ tại hà nội',
-        'công ty bảo vệ tuyển dụng tại hà nội',
-        'tuyển dụng bảo vệ tại hà nội',
-        'tuyển dụng bảo vệ hà nội',
-        'làm bảo vệ tại hà nội',
-        'tìm việc làm bảo vệ chung cư tại hà nội',
-        'tìm việc làm bảo vệ hà nội',
-        'tuyển bảo vệ ở hà nội',
-        'tìm bảo vệ tại hà nội',
-        'tìm việc làm bảo vệ bảo an ở tại hà nội',
-        'việc làm bảo vệ ở hà nội',
-        'bảo vệ ở hà nội',
+        {
+          title: 'Tìm việc làm bảo vệ tại hà nội',
+          url: 'https://baovehanoi.ga/',
+        },
+        {
+          title: 'Tìm việc làm bảo vệ tại vĩnh yên',
+          url: 'https://baoveanninhphiabac.ga/',
+        },
+        {
+          title: 'Cần tuyển gấp nhân viên bảo vệ',
+          url: 'https://tuyenbaoveatp.ga/',
+        },
+        {
+          title: 'Công ty bảo vệ nhất việt tuyển dụng',
+          url: 'https://vieclambaovedenhat.ga/',
+        },
+        {
+          title: 'Bảo vệ SECOM tuyển dụng',
+          url: 'https://secomtuyendung.ga/',
+        },
+        {
+          title: 'Việc làm bảo vệ tại hà nội',
+          url: 'https://baovediamondstar.ml/',
+        },
       ],
     }
   },

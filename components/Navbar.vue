@@ -9,7 +9,9 @@
                 src="/images/logo.png"
                 alt="Công ty bảo vệ Kawasaki tuyển dụng"
               /> -->
-            <a href="/" class="text-white font-medium">Tuyển bảo vệ Kawasaki</a>
+            <a href="https://baovekawasaki.tk/" class="text-white font-medium"
+              >Tuyển bảo vệ Kawasaki</a
+            >
           </div>
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-4">
@@ -20,11 +22,20 @@
                 :href="item.href"
                 :class="[
                   item.current
-                    ? 'bg-gray-900 text-white'
+                    ? 'bg-gray-300 text-blue-600'
                     : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                   'px-3 py-2 rounded-md text-sm font-medium',
                 ]"
                 :aria-current="item.current ? 'page' : undefined"
+                ><svg
+                  v-if="item.current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 float-left pr-1"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <use xlink:href="#zalo"></use></svg
                 >{{ item.name }}</a
               >
             </div>
@@ -96,12 +107,23 @@
           :href="item.href"
           :class="[
             item.current
-              ? 'bg-gray-900 text-white'
+              ? 'bg-gray-300 text-blue-600'
               : 'text-gray-300 hover:bg-gray-700 hover:text-white',
             'block px-3 py-2 rounded-md text-base font-medium',
           ]"
           :aria-current="item.current ? 'page' : undefined"
-          >{{ item.name }}</a
+        >
+          <svg
+            v-if="item.current"
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 float-left pr-1"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <use xlink:href="#zalo"></use>
+          </svg>
+          {{ item.name }}</a
         >
       </div>
     </div>
@@ -112,7 +134,7 @@ const navigation = [
   { name: 'Trang chủ', href: '/', current: false },
   { name: 'Tin tuyển dụng', href: '/tuyen-dung/', current: false },
   { name: 'Giới thiệu', href: '/nop-ho-so-ung-tuyen/', current: false },
-  { name: 'Tư vấn', href: 'tel:0978333963', current: true },
+  { name: 'Hỗ trợ miễn phí', href: 'tel:0978333963', current: true },
 ]
 export default {
   data() {
