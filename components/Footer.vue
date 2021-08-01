@@ -190,11 +190,23 @@
         ></path>
       </svg>
     </div>
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/dafd0f159bea8e5be932061e6/3b5f602fcb454a5cdfb96f510.js");</script>
+    <script id="mcjs">
+      !(function (c, h, i, m, p) {
+        ;(m = c.createElement(h)),
+          (p = c.getElementsByTagName(h)[0]),
+          (m.async = 1),
+          (m.src = i),
+          p.parentNode.insertBefore(m, p)
+      })(
+        document,
+        'script',
+        'https://chimpstatic.com/mcjs-connected/js/users/dafd0f159bea8e5be932061e6/c2177552a242c2548c361f390.js'
+      )
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-SFDXCZ47RJ"
+      src="https://www.googletagmanager.com/gtag/js?id=UA-201783842-5"
     ></script>
     <script>
       window.dataLayer = window.dataLayer || []
@@ -202,7 +214,8 @@
         dataLayer.push(arguments)
       }
       gtag('js', new Date())
-      gtag('config', 'G-MPB69G6B3V')
+
+      gtag('config', 'UA-201783842-5')
     </script>
   </footer>
 </template>

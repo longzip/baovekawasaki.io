@@ -1,4 +1,3 @@
-import jobs from './jobs.json'
 const website = 'https://baovekawasaki.tk'
 const title =
   'Công ty bảo vệ Kawasaki tuyển dụng Tìm việc làm bảo vệ bảo hà nội'
@@ -149,11 +148,16 @@ export default {
         url: '/',
         priority: 1.0,
       },
-      ...jobs.map((job) => {
-        return {
-          url: `/tuyen-dung/${job.slug.current}/`,
-        }
-      }),
+      {
+        url: '/tuyen-dung/',
+      },
+      {
+        url: '/tuyen-dung/viec-lam-bao-ve-ngan-hang-tai-ha-noi/',
+      },
+      {
+        url:
+          '/tuyen-dung/tuyen-bao-ve-chung-cu-tai-ha-noi-viec-lam-bao-ve-bao-an-o/',
+      },
     ],
   },
 
@@ -164,7 +168,4 @@ export default {
   generate: {
     dir: 'docs',
   },
-  // server: {
-  //   host: '0', // default: localhost
-  // },
 }
