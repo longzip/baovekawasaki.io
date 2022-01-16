@@ -128,8 +128,8 @@
         <div class="w-full md:w-4/12 px-4 mx-auto text-center">
           <div class="text-sm text-blueGray-500 font-semibold py-1">
             Copyright © 2021
-            <a href="https://tuyendung.dichvubaovevietnhat.com/"
-              >Việc làm bảo vệ</a
+            <a href="https://baovehanoi.ga/"
+              >Tuyển bảo vệ ca 8 tiếng tại Hà Nội</a
             >
             by
             <a
