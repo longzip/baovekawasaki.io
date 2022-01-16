@@ -8,7 +8,7 @@
             Tuyển dụng bảo vệ và việc làm bảo vệ ở hà nội
           </h5>
           <div class="mt-6 w-full flex">
-            <a
+            <!-- <a
               href="tel:0374638603"
               rel="nofollow"
               class="flex"
@@ -24,13 +24,14 @@
                 <use xlink:href="#call"></use>
               </svg>
               <span class="pl-1">037 463 86 03</span></a
-            >
+            > -->
             <a
-              href="https://zalo.me/0374638603"
+              href="https://zalo.me/g/suunwr475"
               rel="nofollow"
               class="ml-5 flex"
               target="_blank"
             >
+              <span class="pl-1 pr-1">👉 Vào nhóm zalo</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-6 w-6"
@@ -38,10 +39,8 @@
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <use xlink:href="#zalo"></use>
-              </svg>
-              <span class="pl-1">Hỗ trợ trò chuyện miễn phí</span></a
-            >
+                <use xlink:href="#zalo"></use></svg
+            ></a>
           </div>
           <p class="text-sm mt-6 text-blueGray-500 font-semibold">
             <strong
@@ -68,7 +67,7 @@
             /></a>
             <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
           </p>
-          <div
+          <!-- <div
             class="fixed bottom-24 left-5 flex text-white bg-red-600 hover:bg-red-700 rounded-lg p-2"
           >
             <svg
@@ -87,7 +86,7 @@
             ><a class="flex-initial text-lg" href="tel:0374638603"
               >037 463 86 03</a
             >
-          </div>
+          </div> -->
         </div>
         <div class="w-full md:w-6/12 px-4">
           <div class="flex flex-wrap items-top mb-6">

@@ -134,7 +134,7 @@ const navigation = [
   { name: 'Trang chủ', href: '/', current: false },
   { name: 'Tin tuyển dụng', href: '/tuyen-dung/', current: false },
   { name: 'Giới thiệu', href: '/nop-ho-so-ung-tuyen/', current: false },
-  { name: 'Hỗ trợ miễn phí', href: 'tel:0978333963', current: true },
+  { name: 'Vào nhóm Zalo', href: 'https://zalo.me/g/suunwr475', current: true },
 ]
 export default {
   data() {
