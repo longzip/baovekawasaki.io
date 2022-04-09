@@ -132,9 +132,13 @@
 <script>
 const navigation = [
   { name: 'Trang chủ', href: '/', current: false },
-  { name: 'Tin tuyển dụng', href: '/tuyen-dung/', current: false },
-  { name: 'Giới thiệu', href: '/nop-ho-so-ung-tuyen/', current: false },
-  { name: 'Vào nhóm Zalo', href: 'https://zalo.me/g/suunwr475', current: true },
+  {
+    name: 'Ứng tuyển ngay',
+    href: 'https://www.lambaove.ga/ung-tuyen/',
+    current: false,
+  },
+  { name: 'Blog', href: 'https://blog.lambaove.ga/', current: false },
+  { name: 'Vào nhóm Zalo', href: 'https://zalo.me/g/acgaxu870', current: true },
 ]
 export default {
   data() {

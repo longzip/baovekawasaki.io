@@ -8,8 +8,8 @@
             Tuyển dụng bảo vệ và việc làm bảo vệ ở hà nội
           </h5>
           <div class="mt-6 w-full flex">
-            <!-- <a
-              href="tel:0374638603"
+            <a
+              href="tel:0978333963"
               rel="nofollow"
               class="flex"
               target="_blank"
@@ -23,10 +23,10 @@
               >
                 <use xlink:href="#call"></use>
               </svg>
-              <span class="pl-1">037 463 86 03</span></a
-            > -->
+              <span class="pl-1">0978 333 963</span></a
+            >
             <a
-              href="https://zalo.me/g/suunwr475"
+              href="https://zalo.me/g/acgaxu870"
               rel="nofollow"
               class="ml-5 flex"
               target="_blank"
@@ -67,7 +67,7 @@
             /></a>
             <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
           </p>
-          <!-- <div
+          <div
             class="fixed bottom-24 left-5 flex text-white bg-red-600 hover:bg-red-700 rounded-lg p-2"
           >
             <svg
@@ -83,10 +83,10 @@
                 stroke-width="2"
                 d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
               /></svg
-            ><a class="flex-initial text-lg" href="tel:0374638603"
-              >037 463 86 03</a
+            ><a class="flex-initial text-lg" href="tel:0978333963"
+              >0978 333 963</a
             >
-          </div> -->
+          </div>
         </div>
         <div class="w-full md:w-6/12 px-4">
           <div class="flex flex-wrap items-top mb-6">

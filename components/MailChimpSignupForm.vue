@@ -105,11 +105,12 @@
               class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
             />
             <p>
-              * Không có địa chỉ email bấm
+              * Ứng tuyển nhanh qua Google
               <a
                 class="text-blue-900"
-                href="https://vn.vieclambaove.ga/wordpress/wp-login.php?loginSocial=google"
-                >vào đây</a
+                target="_blank"
+                href="https://www.lambaove.ga/wordpress/wp-login.php?loginSocial=google&redirect=https%3A%2F%2Fwww.lambaove.ga%2F"
+                >tại đây</a
               >
             </p>
           </div>
